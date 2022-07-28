@@ -1,0 +1,22 @@
+<div class="card">
+  <a href="#">
+    <div class="card-img-full">
+      <img [src]="lesson.lessonImg" class="card-img" alt="..." />
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{ lesson.lessonName }}</h5>
+      <p class="card-description">
+        {{ lesson.lessonDescription }}
+      </p>
+      <div class="card-link">
+        <div class="card-img-item">
+          <img class="card-link-img" [src]="lesson.instructorProfile" />
+          <a href="#" class="card-link-item">{{ lesson.instructor }}</a>
+        </div>
+        <div class="card-price">
+          <a class="card-link-item" href="#">{{ lesson.price }}</a>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

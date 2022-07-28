@@ -1,0 +1,8 @@
+<app-filter-search-bar></app-filter-search-bar>
+<div class="container">
+  <div class="row lesson-card">
+    <div class="column" *ngFor="let course of lessonList">
+      <app-lesson-card  [lesson]="course"></app-lesson-card>
+    </div>
+    </div>
+</div>
